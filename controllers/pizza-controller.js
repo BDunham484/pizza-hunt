@@ -13,7 +13,7 @@ const pizzaController = {
             .then(dbPizzaData => res.json(dbPizzaData))
             .catch(err => {
                 console.log(err);
-                res.status(400).jsone(err);
+                res.status(400).json(err);
             });
     },
     //get one pizza by id
