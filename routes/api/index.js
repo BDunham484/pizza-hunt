@@ -7,4 +7,4 @@ router.use('/pizzas', pizzaRoutes);
 //add prefix of '/comments' to routes created in 'comment-routes.js'
 router.use('/comments', commentRoutes);
 
-module.exports = router;
+module.exports = router; 
